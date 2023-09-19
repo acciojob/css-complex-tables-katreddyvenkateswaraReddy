@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 table {
-	  border-width: 1px 1px 0px 0px; /* Top Right Bottom Left */
+	  border-width: 0px 0px 1px 1px; /* Top Right Bottom Left */
 	  border-style: solid; /* Optional: Set the border style to solid or other styles */
       border-color: orange; 
 /*       border: 0px 0px 1px 1px solid orange; */
@@ -10,7 +10,10 @@ table {
 
     th, td {
       text-align: center;
-      border: 1px solid orange;
+	  border-width: 1px 1px 0px 0px; /* Top Right Bottom Left */
+	  border-style: solid; /* Optional: Set the border style to solid or other styles */
+      border-color: orange; 
+/*       border: 1px solid orange; */
       padding: 3px 5px;
     }
 
@@ -19,7 +22,7 @@ table {
       color: white;
     }
 
-    .sub-total-text {
+    .sub-total-text,.sub-total-row {
       text-align: right;
     }
   
