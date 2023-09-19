@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 table {
-	  border-width: 0px 0px 1px 1px; /* Top Right Bottom Left */
+	  border-width: 1px 1px 0px 0px; /* Top Right Bottom Left */
 	  border-style: solid; /* Optional: Set the border style to solid or other styles */
       border-color: orange; 
 /*       border: 0px 0px 1px 1px solid orange; */
