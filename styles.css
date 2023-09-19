@@ -1,16 +1,16 @@
 /*  your css code here. If applicable */
 table {
-      border: 0px 0px 1px 1px solid orange;
+	  border-width: 0px 0px 1px 1px; /* Top Right Bottom Left */
+	  border-style: solid; /* Optional: Set the border style to solid or other styles */
+      border-color: orange; 
+/*       border: 0px 0px 1px 1px solid orange; */
       border-collapse: collapse;
       width: 100%;
     }
 
     th, td {
       text-align: center;
-	  border-width: 0px 0px 1px 1px; /* Top Right Bottom Left */
-	  border-style: solid; /* Optional: Set the border style to solid or other styles */
-      border-color: orange; 
-/*       border: 1px solid orange; */
+      border: 1px solid orange;
       padding: 3px 5px;
     }
 
